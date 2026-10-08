@@ -1,0 +1,11 @@
+Third-party notices and provenance
+
+Grounding sources
+- Astro documentation (github.com/withastro/docs): MIT License, Copyright (c) 2022 withastro.
+- Website Specification (specification.website): MIT License, as stated on the project site.
+
+Generated text
+The answers and judge verdicts were written by these models:
+- Free OpenCode-hosted models: Big Pickle, Nemotron 3 Ultra, LongCat 2.5 Preview, MiMo-V2.6 Flash.
+- Local models: Qwen3-Coder-30B-A3B-Instruct (Q3_K_XL), Gemma 4 12B (abliterated).
+Questions were generated with the same model families.

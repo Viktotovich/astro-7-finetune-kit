@@ -1,0 +1,10 @@
+[
+  {"i": 1, "verdict": "pass", "accuracy": 5, "version": 5, "usefulness": 5, "concise": 4, "issues": "", "fixed_answer": ""},
+  {"i": 2, "verdict": "fix", "accuracy": 3, "version": 4, "usefulness": 5, "concise": 3, "issues": "The answer says 'No tsconfig setting does this on its own' but the context shows verbatimModuleSyntax in tsconfig is relevant for type imports. The build script example has duplicate 'build' keys which is invalid JSON.", "fixed_answer": "No tsconfig setting alone enables type-checking at build time. `astro dev` and `astro build` transpile with esbuild and skip type checking. To gate releases, change your `build` script in `package.json` to run `astro check` before building:\n\n```json\n{\n  \"scripts\": {\n    \"build\": \"astro check && astro build\"\n  }\n}\n```\n\n`astro check` inspects all files in your TypeScript project (use `svelte-check` or `vue-tsc` for Svelte/Vue files). The build produces a deploy-ready site in `dist/` by default and reports build errors in the terminal.\n\nDocs: https://docs.astro.build/en/guides/typescript/"},
+  {"i": 3, "verdict": "pass", "accuracy": 5, "version": 5, "usefulness": 4, "concise": 4, "issues": "", "fixed_answer": ""},
+  {"i": 4, "verdict": "pass", "accuracy": 5, "version": 5, "usefulness": 4, "concise": 4, "issues": "", "fixed_answer": ""},
+  {"i": 5, "verdict": "pass", "accuracy": 5, "version": 5, "usefulness": 4, "concise": 4, "issues": "", "fixed_answer": ""},
+  {"i": 6, "verdict": "pass", "accuracy": 5, "version": 5, "usefulness": 5, "concise": 4, "issues": "", "fixed_answer": ""},
+  {"i": 7, "verdict": "pass", "accuracy": 5, "version": 5, "usefulness": 4, "concise": 4, "issues": "", "fixed_answer": ""},
+  {"i": 8, "verdict": "pass", "accuracy": 4, "version": 5, "usefulness": 3, "concise": 3, "issues": "The answer assumes knowledge of zcli and separate zerops.yml files per service, but the context only shows a single zerops.yml example with setup: app. It doesn't explicitly confirm multiple zerops.yml entries in one repo.", "fixed_answer": ""}
+]

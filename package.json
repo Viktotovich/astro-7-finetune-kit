@@ -1,0 +1,12 @@
+{
+  "name": "astro-dataset",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/01-collect.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "undici": "^7.16.0"
+  }
+}

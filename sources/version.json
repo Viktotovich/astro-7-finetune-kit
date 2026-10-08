@@ -1,0 +1,8 @@
+{
+  "astro": "7.3.5",
+  "checked_at": "2026-10-05T13:55:29.410Z",
+  "npm_latest": "7.3.5",
+  "docs_upgrade_guide": "https://docs.astro.build/en/guides/upgrade-to/v7/",
+  "node_minimum": "22 (Astro v6+)",
+  "vite": "8 (Astro v7)"
+}

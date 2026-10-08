@@ -1,0 +1,27 @@
+{
+  "astro_version": "7.3.5",
+  "note": "Patterns that are removed, renamed or deprecated as of Astro 7. An answer matching a rule is rejected unless the example is a migration question AND the answer presents the API as old/removed. Compiled from the v5, v6 and v7 upgrade guides via the Astro docs MCP.",
+  "rules": [
+    { "id": "astro-glob", "re": "Astro\\.glob\\s*\\(", "why": "Astro.glob() was removed in v6; use import.meta.glob() or content collections.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "hybrid-output", "re": "output\\s*:\\s*['\"]hybrid['\"]", "why": "The hybrid output mode was removed in v5; static is the default and pages opt out with prerender = false.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v5/" },
+    { "id": "view-transitions-component", "re": "<ViewTransitions\\b|import\\s*\\{[^}]*\\bViewTransitions\\b", "why": "<ViewTransitions /> was renamed <ClientRouter /> in v5.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v5/" },
+    { "id": "legacy-collections-config-path", "re": "src/content/config\\.(ts|js|mjs)", "why": "Legacy content collections were removed in v6; the config lives in src/content.config.ts.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "legacy-collection-type", "re": "defineCollection\\(\\s*\\{[^}]*\\btype\\s*:\\s*['\"](content|data)['\"]", "why": "type: 'content' | 'data' belongs to removed legacy collections; v6+ collections use a loader.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "legacy-entry-helpers", "re": "\\b(getEntryBySlug|getDataEntryById)\\b", "why": "Legacy entry helpers were removed with legacy content collections; use getEntry().", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "entry-render-method", "re": "\\b(entry|post|page|doc|item|article)\\.render\\s*\\(", "why": "Entries no longer have a render() method; import render() from astro:content and call render(entry).", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "z-from-astro-content", "re": "import\\s*\\{[^}]*\\bz\\b[^}]*\\}\\s*from\\s*['\"]astro:(content|schema)['\"]", "why": "z from astro:content / astro:schema is deprecated in v6; import { z } from 'astro/zod'.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "astro-db", "re": "@astrojs/db|from\\s*['\"]astro:db['\"]|\\bastro add db\\b|\\bdefineDb\\s*\\(", "why": "@astrojs/db was removed in v7; use node:sqlite, Drizzle ORM or another database library.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v7/" },
+    { "id": "stable-experimental-flags", "re": "experimental\\s*:\\s*\\{[^}]*\\b(rustCompiler|advancedRouting|queuedRendering|routeRules)\\b", "why": "These experimental flags were removed in v7 (now stable or default); cache and routeRules are top-level config.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v7/" },
+    { "id": "lit-integration", "re": "@astrojs/lit", "why": "The Lit integration was removed in v5.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v5/" },
+    { "id": "squoosh", "re": "squooshImageService|astro/assets/services/squoosh", "why": "The Squoosh image service was removed in v5.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v5/" },
+    { "id": "prefetch-with", "re": "prefetch\\s*\\([^)]*\\bwith\\s*:", "why": "The prefetch() with option was removed in v6.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "emit-esm-image", "re": "\\bemitESMImage\\b", "why": "emitESMImage() was removed in v6.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "ssr-manifest-module", "re": "astro:ssr-manifest", "why": "The astro:ssr-manifest virtual module was removed in v6.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "assets-prefix-env", "re": "import\\.meta\\.env\\.ASSETS_PREFIX", "why": "import.meta.env.ASSETS_PREFIX is deprecated in v6.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "function-per-route", "re": "\\bfunctionPerRoute\\b", "why": "functionPerRoute is deprecated adapter config.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v5/" },
+    { "id": "container-renderer-root", "re": "getContainerRenderer\\s*\\}?\\s*from\\s*['\"]@astrojs/(react|preact|solid-js|svelte|vue|mdx)['\"]", "why": "Import getContainerRenderer from '<integration>/container-renderer' in v7.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v7/" },
+    { "id": "old-node", "re": "\\bNode(\\.js)?\\s*(v)?(14|16|18|20)(\\.\\d+)?\\s*(or\\s+(later|higher|newer)|\\+|is required|minimum)", "why": "Astro v6+ requires Node.js 22 or later.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v6/" },
+    { "id": "old-vite", "re": "\\bVite\\s*(v)?[4-7]\\b(?!\\s*(migration|to\\s+Vite))", "why": "Astro 7 ships Vite 8.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v7/" },
+    { "id": "dynamic-prerender", "re": "export\\s+const\\s+prerender\\s*=\\s*(import\\.meta|process\\.env)", "why": "Dynamic prerender values in routes were removed in v5; use the astro:route:setup hook.", "ref": "https://docs.astro.build/en/guides/upgrade-to/v5/" }
+  ]
+}

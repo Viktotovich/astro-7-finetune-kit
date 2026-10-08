@@ -1,0 +1,3558 @@
+{
+  "astro_version": "7.3.5",
+  "docs_pages": 422,
+  "docs_pages_with_chunks": 392,
+  "corpus_chunks": 1613,
+  "spec_topics": 169,
+  "spec_question_quota": 620,
+  "pages": [
+    {
+      "url": "https://docs.astro.build/en/astro-courses/",
+      "area": "basics",
+      "chunks": 1,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/basics/astro-components/",
+      "area": "basics",
+      "chunks": 10,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/basics/astro-pages/",
+      "area": "basics",
+      "chunks": 6,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/basics/layouts/",
+      "area": "basics",
+      "chunks": 5,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/basics/project-structure/",
+      "area": "basics",
+      "chunks": 6,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/concepts/islands/",
+      "area": "basics",
+      "chunks": 4,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/concepts/why-astro/",
+      "area": "basics",
+      "chunks": 5,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/contribute/",
+      "area": "basics",
+      "chunks": 2,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/develop-and-build/",
+      "area": "basics",
+      "chunks": 3,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/editor-setup/",
+      "area": "basics",
+      "chunks": 4,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/getting-started/",
+      "area": "basics",
+      "chunks": 2,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/actions/",
+      "area": "guides",
+      "chunks": 13,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/authentication/",
+      "area": "guides",
+      "chunks": 7,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/",
+      "area": "guides",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/appwrite/",
+      "area": "backend",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/firebase/",
+      "area": "backend",
+      "chunks": 11,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/neon/",
+      "area": "backend",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/prisma-postgres/",
+      "area": "backend",
+      "chunks": 4,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/scalekit/",
+      "area": "backend",
+      "chunks": 6,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/sentry/",
+      "area": "backend",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/supabase/",
+      "area": "backend",
+      "chunks": 7,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/turso/",
+      "area": "backend",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/backend/xata/",
+      "area": "backend",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/build-with-ai/",
+      "area": "guides",
+      "chunks": 16,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/caching/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/client-side-scripts/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/",
+      "area": "guides",
+      "chunks": 4,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/apostrophecms/",
+      "area": "cms",
+      "chunks": 12,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/builderio/",
+      "area": "cms",
+      "chunks": 9,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/buttercms/",
+      "area": "cms",
+      "chunks": 2,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/caisy/",
+      "area": "cms",
+      "chunks": 2,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/cloudcannon/",
+      "area": "cms",
+      "chunks": 10,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/contentful/",
+      "area": "cms",
+      "chunks": 9,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/cosmic/",
+      "area": "cms",
+      "chunks": 4,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/craft-cms/",
+      "area": "cms",
+      "chunks": 2,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/craft-cross-cms/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/crystallize/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/datocms/",
+      "area": "cms",
+      "chunks": 6,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/decap-cms/",
+      "area": "cms",
+      "chunks": 4,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/directus/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/drupal/",
+      "area": "cms",
+      "chunks": 10,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/emdash/",
+      "area": "cms",
+      "chunks": 7,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/flotiq/",
+      "area": "cms",
+      "chunks": 7,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/frontmatter-cms/",
+      "area": "cms",
+      "chunks": 7,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/ghost/",
+      "area": "cms",
+      "chunks": 6,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/gitcms/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/hackmd/",
+      "area": "cms",
+      "chunks": 4,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/hashnode/",
+      "area": "cms",
+      "chunks": 5,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/hygraph/",
+      "area": "cms",
+      "chunks": 2,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/jekyllpad/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/keystatic/",
+      "area": "cms",
+      "chunks": 6,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/keystonejs/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/kontent-ai/",
+      "area": "cms",
+      "chunks": 9,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/microcms/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/optimizely/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/pages-cms/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/payload/",
+      "area": "cms",
+      "chunks": 5,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/preprcms/",
+      "area": "cms",
+      "chunks": 4,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/prismic/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/sanity/",
+      "area": "cms",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/sitecore/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/sitepins/",
+      "area": "cms",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/spinal/",
+      "area": "cms",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/statamic/",
+      "area": "cms",
+      "chunks": 2,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/storyblok/",
+      "area": "cms",
+      "chunks": 7,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/strapi/",
+      "area": "cms",
+      "chunks": 6,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/studiocms/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/tina-cms/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/umbraco/",
+      "area": "cms",
+      "chunks": 8,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/vault-cms/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/wordpress/",
+      "area": "cms",
+      "chunks": 7,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/cms/zero/",
+      "area": "cms",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/configuring-astro/",
+      "area": "guides",
+      "chunks": 2,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/content-collections/",
+      "area": "guides",
+      "chunks": 22,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/data-fetching/",
+      "area": "guides",
+      "chunks": 2,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/",
+      "area": "guides",
+      "chunks": 4,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/aws-via-flightcontrol/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/aws-via-sst/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/aws/",
+      "area": "deploy",
+      "chunks": 7,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/azion/",
+      "area": "deploy",
+      "chunks": 4,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/buddy/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/cleavr/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/clever-cloud/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/cloudflare/",
+      "area": "deploy",
+      "chunks": 3,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/cloudray/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/deno/",
+      "area": "deploy",
+      "chunks": 4,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/deployhq/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/edgeone-pages/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/firebase/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/fleek/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/flyio/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/github/",
+      "area": "deploy",
+      "chunks": 5,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/gitlab/",
+      "area": "deploy",
+      "chunks": 3,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/google-cloud/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/heroku/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/hostinger/",
+      "area": "deploy",
+      "chunks": 4,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/ishosting/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/microsoft-azure/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/netlify/",
+      "area": "deploy",
+      "chunks": 5,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/railway/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/render/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/seenode/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/sevalla/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/stormkit/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/surge/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/vercel/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/zeabur/",
+      "area": "deploy",
+      "chunks": 1,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/zephyr/",
+      "area": "deploy",
+      "chunks": 2,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/deploy/zerops/",
+      "area": "deploy",
+      "chunks": 5,
+      "quota": 9
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/dev-toolbar/",
+      "area": "guides",
+      "chunks": 2,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/ecommerce/",
+      "area": "guides",
+      "chunks": 6,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/endpoints/",
+      "area": "guides",
+      "chunks": 6,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/environment-variables/",
+      "area": "guides",
+      "chunks": 7,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/fonts/",
+      "area": "guides",
+      "chunks": 11,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/framework-components/",
+      "area": "guides",
+      "chunks": 8,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/images/",
+      "area": "guides",
+      "chunks": 20,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/imports/",
+      "area": "guides",
+      "chunks": 12,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/alpinejs/",
+      "area": "integrations",
+      "chunks": 5,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/cloudflare/",
+      "area": "integrations",
+      "chunks": 16,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/db/",
+      "area": "integrations",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/deno/",
+      "area": "integrations",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/lit/",
+      "area": "integrations",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/markdoc/",
+      "area": "integrations",
+      "chunks": 12,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/mdx/",
+      "area": "integrations",
+      "chunks": 9,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/netlify/",
+      "area": "integrations",
+      "chunks": 12,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/node/",
+      "area": "integrations",
+      "chunks": 6,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/partytown/",
+      "area": "integrations",
+      "chunks": 5,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/preact/",
+      "area": "integrations",
+      "chunks": 5,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/prefetch/",
+      "area": "integrations",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/react/",
+      "area": "integrations",
+      "chunks": 6,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/sitemap/",
+      "area": "integrations",
+      "chunks": 4,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/solid-js/",
+      "area": "integrations",
+      "chunks": 4,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/svelte/",
+      "area": "integrations",
+      "chunks": 4,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/tailwind/",
+      "area": "integrations",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/vercel/",
+      "area": "integrations",
+      "chunks": 12,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations-guide/vue/",
+      "area": "integrations",
+      "chunks": 3,
+      "quota": 23
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/integrations/",
+      "area": "guides",
+      "chunks": 16,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/internationalization/",
+      "area": "guides",
+      "chunks": 7,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/markdown-content/",
+      "area": "guides",
+      "chunks": 12,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/media/",
+      "area": "guides",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/media/cloudinary/",
+      "area": "media",
+      "chunks": 6,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/media/imagekit/",
+      "area": "media",
+      "chunks": 10,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/media/mux/",
+      "area": "media",
+      "chunks": 7,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/middleware/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/",
+      "area": "guides",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-create-react-app/",
+      "area": "migrate-from",
+      "chunks": 7,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-docusaurus/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-eleventy/",
+      "area": "migrate-from",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-gatsby/",
+      "area": "migrate-from",
+      "chunks": 9,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-gitbook/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-gridsome/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-hugo/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-jekyll/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-nextjs/",
+      "area": "migrate-from",
+      "chunks": 11,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-nuxtjs/",
+      "area": "migrate-from",
+      "chunks": 12,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-pelican/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-sveltekit/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-vuepress/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/migrate-to-astro/from-wordpress/",
+      "area": "migrate-from",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/on-demand-rendering/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/prefetch/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/routing/",
+      "area": "guides",
+      "chunks": 13,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/server-islands/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/sessions/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/styling/",
+      "area": "guides",
+      "chunks": 14,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/syntax-highlighting/",
+      "area": "guides",
+      "chunks": 4,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/testing/",
+      "area": "guides",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/troubleshooting/",
+      "area": "guides",
+      "chunks": 8,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/typescript/",
+      "area": "guides",
+      "chunks": 9,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/upgrade-to/v1/",
+      "area": "upgrade-old",
+      "chunks": 7,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/upgrade-to/v2/",
+      "area": "upgrade-old",
+      "chunks": 14,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/upgrade-to/v3/",
+      "area": "upgrade-old",
+      "chunks": 27,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/upgrade-to/v4/",
+      "area": "upgrade-old",
+      "chunks": 10,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/upgrade-to/v5/",
+      "area": "upgrade-old",
+      "chunks": 27,
+      "quota": 6
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/upgrade-to/v6/",
+      "area": "upgrade",
+      "chunks": 31,
+      "quota": 66
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/upgrade-to/v7/",
+      "area": "upgrade",
+      "chunks": 7,
+      "quota": 66
+    },
+    {
+      "url": "https://docs.astro.build/en/guides/view-transitions/",
+      "area": "guides",
+      "chunks": 13,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/install-and-setup/",
+      "area": "basics",
+      "chunks": 4,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/",
+      "area": "basics",
+      "chunks": 1,
+      "quota": 26
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/add-yaml-support/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/analyze-bundle-size/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/build-custom-img-component/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/build-forms-api/",
+      "area": "recipes",
+      "chunks": 4,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/build-forms/",
+      "area": "recipes",
+      "chunks": 3,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/bun/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/call-endpoints/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/captcha/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/customizing-output-filenames/",
+      "area": "recipes",
+      "chunks": 2,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/docker/",
+      "area": "recipes",
+      "chunks": 4,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/dynamically-importing-images/",
+      "area": "recipes",
+      "chunks": 3,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/external-links/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/i18n/",
+      "area": "recipes",
+      "chunks": 8,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/making-toolbar-apps/",
+      "area": "recipes",
+      "chunks": 4,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/modified-time/",
+      "area": "recipes",
+      "chunks": 4,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/reading-time/",
+      "area": "recipes",
+      "chunks": 2,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/rss/",
+      "area": "recipes",
+      "chunks": 8,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/sharing-state-islands/",
+      "area": "recipes",
+      "chunks": 15,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/sharing-state/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/streaming-improve-page-performance/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/recipes/tailwind-rendered-markdown/",
+      "area": "recipes",
+      "chunks": 1,
+      "quota": 12
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/adapter-reference/",
+      "area": "reference",
+      "chunks": 17,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/api-reference/",
+      "area": "reference",
+      "chunks": 10,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/astro-syntax/",
+      "area": "reference",
+      "chunks": 4,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/cache-provider-reference/",
+      "area": "reference",
+      "chunks": 6,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/cli-reference/",
+      "area": "reference",
+      "chunks": 11,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/configuration-reference/",
+      "area": "reference",
+      "chunks": 45,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/container-reference/",
+      "area": "reference",
+      "chunks": 11,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/content-loader-reference/",
+      "area": "reference",
+      "chunks": 11,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/dev-toolbar-app-reference/",
+      "area": "reference",
+      "chunks": 11,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/directives-reference/",
+      "area": "reference",
+      "chunks": 6,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/error-reference/",
+      "area": "reference",
+      "chunks": 12,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/action-called-from-server-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/action-not-found-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/action-query-string-invalid-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/actions-cant-be-loaded/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/actions-returned-invalid-data-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/actions-used-with-for-get-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/actions-without-server-output-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/adapter-support-output-mismatch/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/astro-glob-no-match/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/astro-glob-used-outside/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/astro-response-headers-reassigned/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cache-not-enabled/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cache-provider-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cache-query-config-conflict/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cannot-determine-weight-and-style-from-font-file/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cannot-extract-font-type/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cannot-fetch-font-file/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cannot-optimize-svg/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cant-render-page/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/cant-use-astro-config-module-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/client-address-not-available/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/collection-does-not-exist-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/config-legacy-key/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/config-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/content-collection-invalid-type/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/content-collection-missing-loader/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/content-collection-type-mismatch-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/content-entry-data-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/content-loader-invalid-data-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/content-loader-returns-invalid-id/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/content-schema-contains-slug-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/could-not-transform-image/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/csp-not-enabled/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/csssyntax-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/data-collection-entry-parse-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/duplicate-content-entry-slug-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/endpoint-did-not-return-aresponse/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/env-invalid-variable/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/env-invalid-variables/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/env-prefix-conflicts-with-secret/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/env-unsupported-get-secret/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/expected-image-options/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/expected-image/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/expected-not-esmimage/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/failed-to-fetch-remote-image-dimensions/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/failed-to-find-page-map-ssr/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/failed-to-load-module-ssr/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/file-glob-not-supported/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/file-parser-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/font-family-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/font-file-url-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/forbidden-rewrite/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/generate-content-types-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/get-entry-deprecation-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/get-image-not-used-on-server/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/get-static-paths-expected-params/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/get-static-paths-invalid-route-param/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/get-static-paths-removed-rsshelper/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/get-static-paths-required/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/i18n-no-locale-found-in-path/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/i18n-not-enabled/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/image-missing-alt/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/image-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/incompatible-descriptor-options/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/incorrect-strategy-for-i18n/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-component-args/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-content-entry-data-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-content-entry-frontmatter-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-content-entry-slug-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-dynamic-route/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-frontmatter-injection-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-get-static-path-param/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-get-static-paths-entry/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-get-static-paths-return/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-glob/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-i18n-middleware-configuration/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-image-service/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-prerender-export/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-redirect-destination/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/invalid-rewrite404/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/legacy-content-config-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/live-content-config-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/local-image-used-wrongly/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/locals-not-an-object/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/locals-not-serializable/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/locals-reassigned/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/logger-configuration-not-serializable/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/markdown-content-schema-validation-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/markdown-frontmatter-parse-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/markdown-image-not-found/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/mdx-integration-missing-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/middleware-cant-be-loaded/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/middleware-no-data-or-next-called/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/middleware-not-aresponse/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/missing-get-font-file-request-url/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/missing-image-dimension/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/missing-index-for-internationalization/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/missing-locale/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/missing-media-query-directive/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/missing-middleware-for-internationalization/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/missing-sharp/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/mixed-content-data-collection-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-adapter-installed-server-islands/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-adapter-installed/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-client-entrypoint/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-client-only-hint/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-image-metadata/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-manifest-available/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-matching-import/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-matching-renderer/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-matching-static-path-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/no-prerendered-routes-with-domains/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/only-response-can-be-returned/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/page-number-param-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/prerender-client-address-not-available/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/prerender-dynamic-endpoint-path-collide/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/prerender-route-conflict/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/redirect-with-no-location/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/remote-image-not-allowed/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/render-undefined-entry-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/reserved-slot-name/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/response-sent-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/rewrite-encountered-an-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/rewrite-with-body-used/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/route-not-found/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/server-only-module/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/session-config-missing-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/session-config-without-flag-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/session-storage-init-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/session-storage-save-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/session-without-supported-adapter-output-error/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/static-client-address-not-available/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/static-redirect-not-available/",
+      "area": "errors",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unable-to-load-logger/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unavailable-astro-global/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unhandled-rejection/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-clierror/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-compiler-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-config-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-content-collection-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-csserror/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-filesystem-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-markdown-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unknown-vite-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unsupported-config-transform-error/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unsupported-external-redirect/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unsupported-image-conversion/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/errors/unsupported-image-format/",
+      "area": "errors",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/experimental-flags/",
+      "area": "reference",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/experimental-flags/chrome-devtools-workspace/",
+      "area": "experimental",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/experimental-flags/client-prerender/",
+      "area": "experimental",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/experimental-flags/collection-storage/",
+      "area": "experimental",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/experimental-flags/content-intellisense/",
+      "area": "experimental",
+      "chunks": 1,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/experimental-flags/incremental-build/",
+      "area": "experimental",
+      "chunks": 3,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/experimental-flags/svg-optimization/",
+      "area": "experimental",
+      "chunks": 4,
+      "quota": 7
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/font-provider-reference/",
+      "area": "reference",
+      "chunks": 7,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/image-service-reference/",
+      "area": "reference",
+      "chunks": 9,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/integrations-reference/",
+      "area": "reference",
+      "chunks": 40,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/legacy-flags/",
+      "area": "legacy",
+      "chunks": 1,
+      "quota": 4
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/logger-reference/",
+      "area": "reference",
+      "chunks": 4,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-actions/",
+      "area": "api-modules",
+      "chunks": 12,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-app/",
+      "area": "api-modules",
+      "chunks": 3,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-assets/",
+      "area": "api-modules",
+      "chunks": 18,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-config/",
+      "area": "api-modules",
+      "chunks": 4,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-content/",
+      "area": "api-modules",
+      "chunks": 12,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-env/",
+      "area": "api-modules",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-fetch/",
+      "area": "api-modules",
+      "chunks": 8,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-hono/",
+      "area": "api-modules",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-i18n/",
+      "area": "api-modules",
+      "chunks": 2,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-middleware/",
+      "area": "api-modules",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-static-paths/",
+      "area": "api-modules",
+      "chunks": 1,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-transitions/",
+      "area": "api-modules",
+      "chunks": 3,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/modules/astro-zod/",
+      "area": "api-modules",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/programmatic-reference/",
+      "area": "reference",
+      "chunks": 2,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/renderer-reference/",
+      "area": "reference",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/routing-reference/",
+      "area": "reference",
+      "chunks": 5,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/reference/session-driver-reference/",
+      "area": "reference",
+      "chunks": 2,
+      "quota": 41
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/0-introduction/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/0-introduction/1/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/1-setup/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/1-setup/1/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/1-setup/2/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/1-setup/3/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/1-setup/4/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/1-setup/5/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/2-pages/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/2-pages/1/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/2-pages/2/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/2-pages/3/",
+      "area": "tutorial",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/2-pages/4/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/2-pages/5/",
+      "area": "tutorial",
+      "chunks": 2,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/3-components/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/3-components/1/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/3-components/2/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/3-components/3/",
+      "area": "tutorial",
+      "chunks": 2,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/3-components/4/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/4-layouts/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/4-layouts/1/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/4-layouts/2/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/4-layouts/3/",
+      "area": "tutorial",
+      "chunks": 2,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/5-astro-api/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/5-astro-api/1/",
+      "area": "tutorial",
+      "chunks": 3,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/5-astro-api/2/",
+      "area": "tutorial",
+      "chunks": 6,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/5-astro-api/3/",
+      "area": "tutorial",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/5-astro-api/4/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/6-islands/",
+      "area": "tutorial",
+      "chunks": 1,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/6-islands/1/",
+      "area": "tutorial",
+      "chunks": 4,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/6-islands/2/",
+      "area": "tutorial",
+      "chunks": 2,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/6-islands/3/",
+      "area": "tutorial",
+      "chunks": 0,
+      "quota": 0
+    },
+    {
+      "url": "https://docs.astro.build/en/tutorial/6-islands/4/",
+      "area": "tutorial",
+      "chunks": 6,
+      "quota": 3
+    },
+    {
+      "url": "https://docs.astro.build/en/upgrade-astro/",
+      "area": "basics",
+      "chunks": 6,
+      "quota": 26
+    }
+  ],
+  "spec": [
+    {
+      "slug": "color-contrast",
+      "title": "Colour contrast",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/color-contrast/"
+    },
+    {
+      "slug": "contrast-color",
+      "title": "Automatic contrasting colour",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/contrast-color/"
+    },
+    {
+      "slug": "forced-colors",
+      "title": "Forced colours mode",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/forced-colors/"
+    },
+    {
+      "slug": "image-alt-text",
+      "title": "Image alt text",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/image-alt-text/"
+    },
+    {
+      "slug": "form-labels",
+      "title": "Form labels",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/form-labels/"
+    },
+    {
+      "slug": "keyboard-navigation",
+      "title": "Keyboard navigation",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/keyboard-navigation/"
+    },
+    {
+      "slug": "focus-indicators",
+      "title": "Visible focus indicators",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/focus-indicators/"
+    },
+    {
+      "slug": "focus-not-obscured",
+      "title": "Focus not obscured",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/focus-not-obscured/"
+    },
+    {
+      "slug": "skip-links",
+      "title": "Skip links",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/skip-links/"
+    },
+    {
+      "slug": "inert-attribute",
+      "title": "The inert attribute",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/inert-attribute/"
+    },
+    {
+      "slug": "semantic-html",
+      "title": "Semantic HTML and landmarks",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/semantic-html/"
+    },
+    {
+      "slug": "aria-usage",
+      "title": "ARIA — first rule of ARIA",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/aria-usage/"
+    },
+    {
+      "slug": "link-text",
+      "title": "Descriptive link text",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/link-text/"
+    },
+    {
+      "slug": "empty-links-buttons",
+      "title": "Empty links and buttons",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/empty-links-buttons/"
+    },
+    {
+      "slug": "form-errors",
+      "title": "Accessible form errors",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/form-errors/"
+    },
+    {
+      "slug": "accessible-authentication",
+      "title": "Accessible authentication",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/accessible-authentication/"
+    },
+    {
+      "slug": "redundant-entry",
+      "title": "Redundant entry",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/redundant-entry/"
+    },
+    {
+      "slug": "consistent-help",
+      "title": "Consistent help",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/consistent-help/"
+    },
+    {
+      "slug": "document-language",
+      "title": "Document and parts language",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/document-language/"
+    },
+    {
+      "slug": "reduced-motion",
+      "title": "Reduced motion",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/reduced-motion/"
+    },
+    {
+      "slug": "accessibility-overlays",
+      "title": "Accessibility overlays",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/accessibility-overlays/"
+    },
+    {
+      "slug": "captions-and-transcripts",
+      "title": "Captions and transcripts",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/captions-and-transcripts/"
+    },
+    {
+      "slug": "data-tables",
+      "title": "Accessible data tables",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/data-tables/"
+    },
+    {
+      "slug": "touch-target-size",
+      "title": "Touch target size",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/touch-target-size/"
+    },
+    {
+      "slug": "dragging-movements",
+      "title": "Dragging movements",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/dragging-movements/"
+    },
+    {
+      "slug": "hidden-until-found",
+      "title": "Hidden until found",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/hidden-until-found/"
+    },
+    {
+      "slug": "mobile-form-inputs",
+      "title": "Mobile-friendly form inputs",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/mobile-form-inputs/"
+    },
+    {
+      "slug": "native-interactive-elements",
+      "title": "Native interactive elements",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/native-interactive-elements/"
+    },
+    {
+      "slug": "css-state-selectors",
+      "title": "CSS state and relational selectors",
+      "category": "accessibility",
+      "url": "https://specification.website/spec/accessibility/css-state-selectors/"
+    },
+    {
+      "slug": "agent-readiness-overview",
+      "title": "Agent readiness",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/agent-readiness-overview/"
+    },
+    {
+      "slug": "llms-txt",
+      "title": "/llms.txt",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/llms-txt/"
+    },
+    {
+      "slug": "llms-full-txt",
+      "title": "/llms-full.txt",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/llms-full-txt/"
+    },
+    {
+      "slug": "markdown-source-endpoints",
+      "title": "Per-page Markdown source endpoints",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/markdown-source-endpoints/"
+    },
+    {
+      "slug": "robots-for-ai-crawlers",
+      "title": "robots.txt for AI crawlers",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/robots-for-ai-crawlers/"
+    },
+    {
+      "slug": "content-signals",
+      "title": "Content Signals in robots.txt",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/content-signals/"
+    },
+    {
+      "slug": "tdmrep",
+      "title": "TDM reservation (TDMRep)",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/tdmrep/"
+    },
+    {
+      "slug": "web-bot-auth",
+      "title": "Web Bot Auth — verifiable bot identity",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/web-bot-auth/"
+    },
+    {
+      "slug": "auth-md",
+      "title": "auth.md — agent registration instructions",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/auth-md/"
+    },
+    {
+      "slug": "stable-urls",
+      "title": "Stable URLs",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/stable-urls/"
+    },
+    {
+      "slug": "structured-data-for-agents",
+      "title": "Structured data for agents",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/structured-data-for-agents/"
+    },
+    {
+      "slug": "machine-readable-formats",
+      "title": "Machine-readable formats",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/machine-readable-formats/"
+    },
+    {
+      "slug": "link-headers",
+      "title": "HTTP Link headers for discovery",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/link-headers/"
+    },
+    {
+      "slug": "mcp-and-tool-discovery",
+      "title": "MCP and tool discovery",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/mcp-and-tool-discovery/"
+    },
+    {
+      "slug": "a2a-agent-cards",
+      "title": "A2A agent cards",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/a2a-agent-cards/"
+    },
+    {
+      "slug": "agent-skills-discovery",
+      "title": "Agent Skills discovery",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/agent-skills-discovery/"
+    },
+    {
+      "slug": "dns-aid",
+      "title": "DNS for AI Discovery (DNS-AID)",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/dns-aid/"
+    },
+    {
+      "slug": "agentic-resource-discovery",
+      "title": "Agentic Resource Discovery (ARD)",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/agentic-resource-discovery/"
+    },
+    {
+      "slug": "nlweb",
+      "title": "NLWeb — conversational interface discovery",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/nlweb/"
+    },
+    {
+      "slug": "webmcp",
+      "title": "WebMCP — browser-native tools for agents",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/webmcp/"
+    },
+    {
+      "slug": "okf-bundle",
+      "title": "Open Knowledge Format (OKF) bundle",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/okf-bundle/"
+    },
+    {
+      "slug": "schemamap",
+      "title": "Schemamap — discoverable JSON-LD endpoints per resource",
+      "category": "agent-readiness",
+      "url": "https://specification.website/spec/agent-readiness/schemamap/"
+    },
+    {
+      "slug": "doctype",
+      "title": "The HTML doctype",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/doctype/"
+    },
+    {
+      "slug": "html-lang",
+      "title": "The lang attribute on <html>",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/html-lang/"
+    },
+    {
+      "slug": "meta-charset",
+      "title": "<meta charset>",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/meta-charset/"
+    },
+    {
+      "slug": "meta-viewport",
+      "title": "<meta viewport>",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/meta-viewport/"
+    },
+    {
+      "slug": "title",
+      "title": "The <title> element",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/title/"
+    },
+    {
+      "slug": "meta-description",
+      "title": "<meta name=\\\"description\\\">",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/meta-description/"
+    },
+    {
+      "slug": "canonical-url",
+      "title": "Canonical URL (rel=\\\"canonical\\\")",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/canonical-url/"
+    },
+    {
+      "slug": "favicons",
+      "title": "Favicons and app icons",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/favicons/"
+    },
+    {
+      "slug": "theme-color",
+      "title": "<meta name=\\\"theme-color\\\">",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/theme-color/"
+    },
+    {
+      "slug": "color-scheme",
+      "title": "<meta name=\\\"color-scheme\\\">",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/color-scheme/"
+    },
+    {
+      "slug": "open-graph",
+      "title": "Open Graph protocol",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/open-graph/"
+    },
+    {
+      "slug": "feed-discovery",
+      "title": "Feed discovery with rel=\\\"alternate\\\"",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/feed-discovery/"
+    },
+    {
+      "slug": "feed-hygiene",
+      "title": "Feed content hygiene",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/feed-hygiene/"
+    },
+    {
+      "slug": "popover-api",
+      "title": "Popover API",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/popover-api/"
+    },
+    {
+      "slug": "websub",
+      "title": "WebSub — push notification for feeds",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/websub/"
+    },
+    {
+      "slug": "anchor-positioning",
+      "title": "CSS anchor positioning",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/anchor-positioning/"
+    },
+    {
+      "slug": "text-wrap",
+      "title": "Balanced text wrapping",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/text-wrap/"
+    },
+    {
+      "slug": "container-queries",
+      "title": "CSS container queries",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/container-queries/"
+    },
+    {
+      "slug": "invoker-commands",
+      "title": "Invoker commands",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/invoker-commands/"
+    },
+    {
+      "slug": "for-sale-dns",
+      "title": "_for-sale DNS records",
+      "category": "foundations",
+      "url": "https://specification.website/spec/foundations/for-sale-dns/"
+    },
+    {
+      "slug": "international-url-structure",
+      "title": "International URL structure",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/international-url-structure/"
+    },
+    {
+      "slug": "hreflang",
+      "title": "hreflang for language and regional URLs",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/hreflang/"
+    },
+    {
+      "slug": "localised-metadata",
+      "title": "Localised page metadata",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/localised-metadata/"
+    },
+    {
+      "slug": "sitemap-hreflang",
+      "title": "hreflang in XML sitemaps",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/sitemap-hreflang/"
+    },
+    {
+      "slug": "avoid-auto-geo-redirects",
+      "title": "Avoid automatic IP-based language redirects",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/avoid-auto-geo-redirects/"
+    },
+    {
+      "slug": "lang-attribute",
+      "title": "lang attribute on inline content",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/lang-attribute/"
+    },
+    {
+      "slug": "translate-attribute",
+      "title": "translate attribute for untranslatable content",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/translate-attribute/"
+    },
+    {
+      "slug": "language-switcher",
+      "title": "Language switcher",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/language-switcher/"
+    },
+    {
+      "slug": "rtl-support",
+      "title": "RTL and bidirectional text",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/rtl-support/"
+    },
+    {
+      "slug": "writing-modes",
+      "title": "Writing modes and CJK line breaking",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/writing-modes/"
+    },
+    {
+      "slug": "locale-content",
+      "title": "Locale-aware content",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/locale-content/"
+    },
+    {
+      "slug": "plural-rules",
+      "title": "Plural rules and grammatical number",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/plural-rules/"
+    },
+    {
+      "slug": "idn-support",
+      "title": "Internationalised Domain Names (IDN)",
+      "category": "i18n",
+      "url": "https://specification.website/spec/i18n/idn-support/"
+    },
+    {
+      "slug": "core-web-vitals",
+      "title": "Core Web Vitals (LCP, INP, CLS)",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/core-web-vitals/"
+    },
+    {
+      "slug": "image-optimization",
+      "title": "Image optimisation",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/image-optimization/"
+    },
+    {
+      "slug": "lazy-loading",
+      "title": "Lazy loading images, iframes, and video",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/lazy-loading/"
+    },
+    {
+      "slug": "preload-prefetch-preconnect",
+      "title": "Preload, prefetch, preconnect",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/preload-prefetch-preconnect/"
+    },
+    {
+      "slug": "early-hints",
+      "title": "103 Early Hints",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/early-hints/"
+    },
+    {
+      "slug": "cache-control",
+      "title": "Cache-Control headers",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/cache-control/"
+    },
+    {
+      "slug": "conditional-requests",
+      "title": "Conditional requests (ETag, Last-Modified, 304)",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/conditional-requests/"
+    },
+    {
+      "slug": "no-vary-search",
+      "title": "No-Vary-Search response header",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/no-vary-search/"
+    },
+    {
+      "slug": "compression",
+      "title": "Compression (gzip, brotli, zstd)",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/compression/"
+    },
+    {
+      "slug": "font-loading",
+      "title": "Web font loading",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/font-loading/"
+    },
+    {
+      "slug": "critical-css",
+      "title": "Critical CSS and render-blocking resources",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/critical-css/"
+    },
+    {
+      "slug": "script-loading",
+      "title": "Script loading — defer, async, module",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/script-loading/"
+    },
+    {
+      "slug": "http3",
+      "title": "HTTP/2 and HTTP/3",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/http3/"
+    },
+    {
+      "slug": "http1-workarounds",
+      "title": "HTTP/1.1 workarounds: sharding, sprites, and bundling",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/http1-workarounds/"
+    },
+    {
+      "slug": "speculation-rules",
+      "title": "Speculation Rules",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/speculation-rules/"
+    },
+    {
+      "slug": "resource-hints",
+      "title": "Resource hints overview",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/resource-hints/"
+    },
+    {
+      "slug": "view-transitions",
+      "title": "View Transitions",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/view-transitions/"
+    },
+    {
+      "slug": "bfcache",
+      "title": "Back/forward cache (BFCache)",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/bfcache/"
+    },
+    {
+      "slug": "visibility-aware-rendering",
+      "title": "Visibility-aware rendering",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/visibility-aware-rendering/"
+    },
+    {
+      "slug": "css-containment",
+      "title": "CSS containment",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/css-containment/"
+    },
+    {
+      "slug": "scroll-driven-animations",
+      "title": "Scroll-driven animations",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/scroll-driven-animations/"
+    },
+    {
+      "slug": "scrollbar-gutter",
+      "title": "Scrollbar gutter",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/scrollbar-gutter/"
+    },
+    {
+      "slug": "dynamic-viewport-units",
+      "title": "Dynamic viewport units (dvh, svh, lvh)",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/dynamic-viewport-units/"
+    },
+    {
+      "slug": "compression-dictionary-transport",
+      "title": "Compression Dictionary Transport",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/compression-dictionary-transport/"
+    },
+    {
+      "slug": "server-timing",
+      "title": "Server-Timing header",
+      "category": "performance",
+      "url": "https://specification.website/spec/performance/server-timing/"
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy policy",
+      "category": "privacy",
+      "url": "https://specification.website/spec/privacy/privacy-policy/"
+    },
+    {
+      "slug": "cookie-consent",
+      "title": "Cookie consent",
+      "category": "privacy",
+      "url": "https://specification.website/spec/privacy/cookie-consent/"
+    },
+    {
+      "slug": "global-privacy-control",
+      "title": "Global Privacy Control (GPC)",
+      "category": "privacy",
+      "url": "https://specification.website/spec/privacy/global-privacy-control/"
+    },
+    {
+      "slug": "third-party-scripts",
+      "title": "Third-party scripts and privacy",
+      "category": "privacy",
+      "url": "https://specification.website/spec/privacy/third-party-scripts/"
+    },
+    {
+      "slug": "storage-access-api",
+      "title": "Storage Access API",
+      "category": "privacy",
+      "url": "https://specification.website/spec/privacy/storage-access-api/"
+    },
+    {
+      "slug": "analytics-privacy",
+      "title": "Privacy-respecting analytics",
+      "category": "privacy",
+      "url": "https://specification.website/spec/privacy/analytics-privacy/"
+    },
+    {
+      "slug": "data-minimization",
+      "title": "Data minimisation",
+      "category": "privacy",
+      "url": "https://specification.website/spec/privacy/data-minimization/"
+    },
+    {
+      "slug": "error-pages",
+      "title": "Custom error pages (404, 500)",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/error-pages/"
+    },
+    {
+      "slug": "maintenance-pages",
+      "title": "Maintenance pages and 503",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/maintenance-pages/"
+    },
+    {
+      "slug": "graceful-degradation",
+      "title": "Graceful degradation when JavaScript fails",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/graceful-degradation/"
+    },
+    {
+      "slug": "offline-support",
+      "title": "Offline support and service workers",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/offline-support/"
+    },
+    {
+      "slug": "pwa-manifest",
+      "title": "Web app manifest",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/pwa-manifest/"
+    },
+    {
+      "slug": "monitoring-uptime",
+      "title": "Monitoring and uptime",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/monitoring-uptime/"
+    },
+    {
+      "slug": "deprecation-and-sunset",
+      "title": "Deprecation and Sunset",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/deprecation-and-sunset/"
+    },
+    {
+      "slug": "redirect-by",
+      "title": "Redirect-By header",
+      "category": "resilience",
+      "url": "https://specification.website/spec/resilience/redirect-by/"
+    },
+    {
+      "slug": "https-tls",
+      "title": "HTTPS and TLS",
+      "category": "security",
+      "url": "https://specification.website/spec/security/https-tls/"
+    },
+    {
+      "slug": "hsts",
+      "title": "HSTS (Strict-Transport-Security)",
+      "category": "security",
+      "url": "https://specification.website/spec/security/hsts/"
+    },
+    {
+      "slug": "mixed-content",
+      "title": "Mixed content and upgrade-insecure-requests",
+      "category": "security",
+      "url": "https://specification.website/spec/security/mixed-content/"
+    },
+    {
+      "slug": "content-security-policy",
+      "title": "Content Security Policy (CSP)",
+      "category": "security",
+      "url": "https://specification.website/spec/security/content-security-policy/"
+    },
+    {
+      "slug": "reporting-endpoints",
+      "title": "Reporting API (Reporting-Endpoints)",
+      "category": "security",
+      "url": "https://specification.website/spec/security/reporting-endpoints/"
+    },
+    {
+      "slug": "security-txt",
+      "title": "/.well-known/security.txt",
+      "category": "security",
+      "url": "https://specification.website/spec/security/security-txt/"
+    },
+    {
+      "slug": "x-content-type-options",
+      "title": "X-Content-Type-Options: nosniff",
+      "category": "security",
+      "url": "https://specification.website/spec/security/x-content-type-options/"
+    },
+    {
+      "slug": "frame-ancestors",
+      "title": "Clickjacking protection (frame-ancestors / X-Frame-Options)",
+      "category": "security",
+      "url": "https://specification.website/spec/security/frame-ancestors/"
+    },
+    {
+      "slug": "cross-origin-isolation",
+      "title": "Cross-origin isolation (COOP / COEP / CORP)",
+      "category": "security",
+      "url": "https://specification.website/spec/security/cross-origin-isolation/"
+    },
+    {
+      "slug": "referrer-policy",
+      "title": "Referrer-Policy",
+      "category": "security",
+      "url": "https://specification.website/spec/security/referrer-policy/"
+    },
+    {
+      "slug": "permissions-policy",
+      "title": "Permissions-Policy",
+      "category": "security",
+      "url": "https://specification.website/spec/security/permissions-policy/"
+    },
+    {
+      "slug": "subresource-integrity",
+      "title": "Subresource Integrity (SRI)",
+      "category": "security",
+      "url": "https://specification.website/spec/security/subresource-integrity/"
+    },
+    {
+      "slug": "digest-fields",
+      "title": "Digest Fields (Content-Digest and Repr-Digest)",
+      "category": "security",
+      "url": "https://specification.website/spec/security/digest-fields/"
+    },
+    {
+      "slug": "trusted-types",
+      "title": "Trusted Types",
+      "category": "security",
+      "url": "https://specification.website/spec/security/trusted-types/"
+    },
+    {
+      "slug": "x-xss-protection",
+      "title": "X-XSS-Protection",
+      "category": "security",
+      "url": "https://specification.website/spec/security/x-xss-protection/"
+    },
+    {
+      "slug": "cookie-attributes",
+      "title": "Cookie attributes — Secure, HttpOnly, SameSite",
+      "category": "security",
+      "url": "https://specification.website/spec/security/cookie-attributes/"
+    },
+    {
+      "slug": "clear-site-data",
+      "title": "Clear-Site-Data",
+      "category": "security",
+      "url": "https://specification.website/spec/security/clear-site-data/"
+    },
+    {
+      "slug": "caa-records",
+      "title": "DNS CAA records",
+      "category": "security",
+      "url": "https://specification.website/spec/security/caa-records/"
+    },
+    {
+      "slug": "dnssec",
+      "title": "DNSSEC",
+      "category": "security",
+      "url": "https://specification.website/spec/security/dnssec/"
+    },
+    {
+      "slug": "robots-txt",
+      "title": "robots.txt",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/robots-txt/"
+    },
+    {
+      "slug": "xml-sitemaps",
+      "title": "XML sitemaps",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/xml-sitemaps/"
+    },
+    {
+      "slug": "sitemap-index",
+      "title": "Sitemap index files",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/sitemap-index/"
+    },
+    {
+      "slug": "image-sitemaps",
+      "title": "Image and video sitemap extensions",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/image-sitemaps/"
+    },
+    {
+      "slug": "url-structure",
+      "title": "URL structure",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/url-structure/"
+    },
+    {
+      "slug": "redirects",
+      "title": "Redirects (301/302/308)",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/redirects/"
+    },
+    {
+      "slug": "server-side-rendering",
+      "title": "Server-side rendering",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/server-side-rendering/"
+    },
+    {
+      "slug": "soft-404",
+      "title": "Soft 404s",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/soft-404/"
+    },
+    {
+      "slug": "meta-robots",
+      "title": "Meta robots and X-Robots-Tag",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/meta-robots/"
+    },
+    {
+      "slug": "heading-hierarchy",
+      "title": "Heading hierarchy",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/heading-hierarchy/"
+    },
+    {
+      "slug": "internal-linking",
+      "title": "Internal linking",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/internal-linking/"
+    },
+    {
+      "slug": "structured-data",
+      "title": "Structured data (JSON-LD)",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/structured-data/"
+    },
+    {
+      "slug": "breadcrumbs",
+      "title": "Breadcrumbs",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/breadcrumbs/"
+    },
+    {
+      "slug": "indexnow",
+      "title": "IndexNow",
+      "category": "seo",
+      "url": "https://specification.website/spec/seo/indexnow/"
+    },
+    {
+      "slug": "well-known-overview",
+      "title": "Well-known URIs",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/well-known-overview/"
+    },
+    {
+      "slug": "change-password",
+      "title": "/.well-known/change-password",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/change-password/"
+    },
+    {
+      "slug": "webauthn",
+      "title": "/.well-known/webauthn",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/webauthn/"
+    },
+    {
+      "slug": "openid-configuration",
+      "title": "/.well-known/openid-configuration",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/openid-configuration/"
+    },
+    {
+      "slug": "oauth-authorization-server",
+      "title": "/.well-known/oauth-authorization-server",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/oauth-authorization-server/"
+    },
+    {
+      "slug": "oauth-protected-resource",
+      "title": "/.well-known/oauth-protected-resource",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/oauth-protected-resource/"
+    },
+    {
+      "slug": "api-catalog",
+      "title": "/.well-known/api-catalog",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/api-catalog/"
+    },
+    {
+      "slug": "webfinger",
+      "title": "/.well-known/webfinger",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/webfinger/"
+    },
+    {
+      "slug": "apple-app-site-association",
+      "title": "/.well-known/apple-app-site-association",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/apple-app-site-association/"
+    },
+    {
+      "slug": "assetlinks-json",
+      "title": "/.well-known/assetlinks.json",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/assetlinks-json/"
+    },
+    {
+      "slug": "nodeinfo",
+      "title": "/.well-known/nodeinfo",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/nodeinfo/"
+    },
+    {
+      "slug": "traffic-advice",
+      "title": "/.well-known/traffic-advice",
+      "category": "well-known",
+      "url": "https://specification.website/spec/well-known/traffic-advice/"
+    }
+  ]
+}
