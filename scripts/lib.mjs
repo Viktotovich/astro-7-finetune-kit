@@ -133,6 +133,8 @@ export async function chat(messages, { model = MODELS.fast, temperature = 0.4, m
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
+        // A hung local request would otherwise block its batch forever.
+        signal: AbortSignal.timeout(Number(process.env.LOCAL_TIMEOUT_MS ?? 900000)),
       });
       if (!r.ok) throw new Error(`LLM ${r.status}: ${(await r.text()).slice(0, 200)}`);
       const j = await r.json();

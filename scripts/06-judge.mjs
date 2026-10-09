@@ -7,7 +7,8 @@ import { WORK, readJsonl, appendJsonl, pMap, progress, FREE_MODELS, loadKeptQues
 import { judgeBatch } from "./judge-lib.mjs";
 
 const MODELS = process.env.JUDGE_MODELS ? process.env.JUDGE_MODELS.split(",") : FREE_MODELS;
-const BATCH = 8;
+// 8 items per prompt is too much for the local Qwen fallback (prompt processing alone exceeds the timeout); JUDGE_BATCH=2 for local runs.
+const BATCH = Number(process.env.JUDGE_BATCH ?? 8);
 const CONC = Number(process.env.JUDGE_CONC ?? 6);
 const OUT = join(WORK, "judge.jsonl");
 
@@ -24,7 +25,10 @@ const batches = [];
 // Group by the model that wrote the answer so each batch can be judged by a different model.
 const byGen = new Map();
 for (const a of todo) byGen.set(a.model ?? "?", [...(byGen.get(a.model ?? "?") ?? []), a]);
-for (const group of byGen.values()) for (let i = 0; i < group.length; i += BATCH) batches.push(group.slice(i, i + BATCH));
+// Local-written answers can only be judged by a cloud model (never by the local writer itself), so they go last;
+// otherwise they hold the concurrency slots while cloud-written answers wait.
+const byGenOrder = [...byGen].sort(([a], [b]) => Number(a.startsWith("local/")) - Number(b.startsWith("local/")));
+for (const [, group] of byGenOrder) for (let i = 0; i < group.length; i += BATCH) batches.push(group.slice(i, i + BATCH));
 console.log(`[judge] answers=${todo.length} batches=${batches.length} conc=${CONC}`);
 const t0 = Date.now();
 let n = 0;
