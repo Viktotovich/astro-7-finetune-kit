@@ -13,7 +13,9 @@ import { judgeBatch } from "./judge-lib.mjs";
 
 const OUT = join(WORK, "refine.jsonl");
 const MAX_ROUNDS = Number(process.env.MAX_ROUNDS ?? 4);
-const PER_CALL = 4;
+// 4 items x 12k chars of context overflows Qwen's 16k window; REFINE_PER_CALL / REFINE_CTX shrink it for local runs.
+const PER_CALL = Number(process.env.REFINE_PER_CALL ?? 4);
+const REFINE_CTX = Number(process.env.REFINE_CTX ?? 12000);
 const CONC = Number(process.env.CONC ?? 4);
 const major = ASTRO_VERSION.split(".")[0];
 const gatesOk = (j) => j && j.accuracy >= 4 && j.version >= 4 && j.usefulness >= 4 && j.concise >= 3;
@@ -91,7 +93,7 @@ for (let round = 1; round <= MAX_ROUNDS && items.length; round++) {
     groups,
     async (group, gi) => {
       for (const it of group) {
-        const ctx = await contextFor(it.q, { size: 12000, extraQueries: it.q.focus ? [it.q.focus] : [], pageChunks: 4 });
+        const ctx = await contextFor(it.q, { size: REFINE_CTX, extraQueries: it.q.focus ? [it.q.focus] : [], pageChunks: 4 });
         it.ctx = ctx;
         it.links = [...new Set(ctx.map((c) => c.url))];
       }

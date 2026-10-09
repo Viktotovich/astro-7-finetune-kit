@@ -208,7 +208,7 @@ export async function cloudWithFallback(stdinText, models, parse, { local = true
     }
     if (local && process.env.LOCAL_FALLBACK !== "0") {
       try {
-        const parsed = parse(await chat([{ role: "user", content: stdinText }], { model: MODELS.fast, temperature: 0.3, maxTokens: 4000 }));
+        const parsed = parse(await chat([{ role: "user", content: stdinText }], { model: MODELS.fast, temperature: 0.3, maxTokens: Number(process.env.LOCAL_FALLBACK_MAX_TOKENS ?? 1500) }));
         if (parsed) return { parsed, model: `local/${MODELS.fast}` };
       } catch (e) {
         lastErr = e;

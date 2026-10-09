@@ -19,7 +19,9 @@ Use "fix" when the question is good and the answer is fixable: then fixed_answer
 export async function judgeBatch(items, models, bi = 0) {
   let doc = "";
   for (const [i, a] of items.entries()) {
-    const ctx = (await astroSearch(a.question)).slice(0, 3).map((c) => `<<${c.url}>>\n${c.content}`).join("\n\n").slice(0, 3500);
+    // A hung docs lookup would block the whole batch; 60 s, then judge with no extra context.
+    const hits = await Promise.race([astroSearch(a.question).catch(() => []), new Promise((r) => setTimeout(() => r([]), 60000))]);
+    const ctx = hits.slice(0, 3).map((c) => `<<${c.url}>>\n${c.content}`).join("\n\n").slice(0, 3500);
     doc += `
 
 ===== ITEM ${i + 1} =====
