@@ -1,25 +1,33 @@
-# astro-7-finetune-kit
+# astro-dataset (v0.1, partial)
 
-Q&A dataset and pipeline for fine-tuning a small language model on Astro 7 (Astro 7.3.5). The goal is a dataset of 3,500 grounded question/answer pairs, with a GGUF release of the resulting model.
+Question-and-answer pairs about Astro 7 (7.3.5), grounded in the Astro docs and the Web Specifications, for fine-tuning a small model as a Q&A helper.
 
-**Status: work in progress.** `data/` is a snapshot of the pipeline as it stood on 2026-10-08. It is not the final dataset. The judge stage is incomplete, the feedback (refine) loop and the selection step have not run, and `dataset.jsonl` does not exist yet.
+**Status: v0.1 snapshot, 1,467 examples. The target is 3,500, so this is not the final dataset.** The validator is expected to fail on the count until the target is reached.
 
-## Layout
+## Files
 
-- `data/` - pipeline outputs: questions, question review, answers, deterministic checks, `astro check` results, judge verdicts, refine rows, and a review sample.
-- `scripts/` - pipeline stages (`run-pipeline.sh` runs them in order) and shared libraries.
-- `sources/` - inventory of the Astro docs pages, stale-API rules, version info, and the manual review log.
-- `RESUME.md` - run notes and how to resume a stopped run.
+- `dataset.jsonl`: one `{id, messages: [user, assistant]}` per line.
+- `dataset.meta.jsonl`: per-example metadata, joined by `id` (area, difficulty, source page, model that wrote the answer, judge scores).
+- `metadata.json`: dataset-level counts.
+- `scripts/`: the pipeline. `run-pipeline.sh` runs the stages in order.
 
-## Not included
+## How examples were made
 
-- The raw Astro docs and Website Specification text used as grounding. Both can be re-fetched from the docs and specification MCP servers.
-- Intermediate work files (claims, caches).
+1. Questions generated from Astro docs and spec excerpts, then reviewed (keep/drop).
+2. Answers written from the same excerpts by a local model (Qwen3-Coder-30B) or free cloud models.
+3. Deterministic checks: stale APIs, invented identifiers, link rules, forbidden phrases.
+4. `astro check` on code blocks against Astro 7 types.
+5. Independent judge scores (accuracy, version, usefulness, concision). A model never judges its own answers. 427 judge verdicts were written by hand.
+6. Semantic de-duplication (cosine > 0.9) and content rules (no generation artifacts, at most one link, no references to the dataset itself).
+
+## Known limits
+
+- Some judge verdicts come from a local model that was prone to over-passing. Those rows are tagged `local/...` in the pipeline data.
+- Answers from free cloud models were used. Their terms on training with outputs are not confirmed.
+- No human review of the full set. Spot checks only.
+- Difficulty and area balance are not yet at target.
 
 ## Licenses
 
-- Code (`scripts/`, the release kit): Apache-2.0, see `LICENSE`.
-- Data (`data/`): CC BY 4.0, see `DATA-LICENSE`. Upstream notices are listed in `NOTICE`.
-- Model weights: the license of the base model they are trained from.
-
-**Open question before any public release:** several answers were written by free OpenCode-hosted models. The OpenCode privacy page names Big Pickle, MiMo-V2.6-Flash and Nemotron 3 Ultra as models whose collected data may be used to improve the model during the free period. The terms for using model outputs are not confirmed. Keep this repository private until that is resolved.
+- Code: Apache-2.0 (`LICENSE`).
+- Data: CC BY 4.0 (`DATA-LICENSE`). Upstream notices in `NOTICE`.

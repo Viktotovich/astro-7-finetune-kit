@@ -94,8 +94,12 @@ function tryTake(c, strictDiff) {
 for (const c of kept) if (take.length < N) tryTake(c, true);
 for (const c of kept) if (take.length < N && !taken.has(c.id)) tryTake(c, false);
 if (take.length < N) {
-  console.error(`[select] only ${take.length} examples meet the bar (need ${N}). Generate more candidates; the bar is not lowered.`);
-  process.exit(2);
+  // ALLOW_PARTIAL=1 writes the examples that pass every gate, for a v0.x snapshot. The gates themselves are unchanged.
+  if (!process.env.ALLOW_PARTIAL) {
+    console.error(`[select] only ${take.length} examples meet the bar (need ${N}). Generate more candidates; the bar is not lowered.`);
+    process.exit(2);
+  }
+  console.error(`[select] ALLOW_PARTIAL: writing ${take.length} of ${N} examples that meet the bar.`);
 }
 
 // ---- write -----------------------------------------------------------------------------

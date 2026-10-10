@@ -1,0 +1,82 @@
+{
+  "name": "astro-dataset",
+  "astro_version": "7.3.5",
+  "version_record": {
+    "astro": "7.3.5",
+    "checked_at": "2026-10-05T13:55:29.410Z",
+    "npm_latest": "7.3.5",
+    "docs_upgrade_guide": "https://docs.astro.build/en/guides/upgrade-to/v7/",
+    "node_minimum": "22 (Astro v6+)",
+    "vite": "8 (Astro v7)"
+  },
+  "examples": 1467,
+  "format": "JSONL, one {id, messages:[user, assistant]} per line; metadata in dataset.meta.jsonl",
+  "created": "2026-10-10T12:59:48.966Z",
+  "candidates": {
+    "questions": 3117,
+    "gated": 2135,
+    "after_dedup": 1774,
+    "dedup_cosine_threshold": 0.9
+  },
+  "distribution": {
+    "difficulty": {
+      "intermediate": 641,
+      "advanced": 440,
+      "expert": 185,
+      "foundational": 374
+    },
+    "type": {
+      "how-to": 443,
+      "concept": 179,
+      "debugging": 244,
+      "distinction": 227,
+      "configuration": 202,
+      "architecture": 92,
+      "edge-case": 111,
+      "when-not-to": 98,
+      "migration": 44
+    },
+    "area": {
+      "api-modules": 140,
+      "backend": 32,
+      "basics": 170,
+      "cms": 40,
+      "deploy": 31,
+      "errors": 137,
+      "experimental": 15,
+      "guides": 355,
+      "integrations": 92,
+      "legacy": 1,
+      "media": 1,
+      "migrate-from": 19,
+      "recipes": 65,
+      "reference": 305,
+      "spec": 178,
+      "tutorial": 27,
+      "upgrade": 32
+    }
+  },
+  "judge_models": {
+    "opencode/nemotron-3-ultra-free": 564,
+    "opencode/longcat-2.5-preview-free": 626,
+    "opencode/big-pickle": 233,
+    "opencode/mimo-v2.6-flash-free": 105,
+    "manual/claude-haiku-5-5": 47,
+    "local/qwen3-coder-30b-a3b-instruct@q3_k_xl": 65
+  },
+  "verdicts_used": {
+    "pass": 1614,
+    "fix": 26
+  },
+  "manual_overrides_applied": 0,
+  "approx_words": 165226,
+  "approx_tokens": 231316,
+  "difficulty": {
+    "intermediate": 580,
+    "advanced": 399,
+    "expert": 170,
+    "foundational": 323
+  },
+  "areas": {},
+  "status": "v0.1 snapshot (partial, 1467 of 3500)"
+}
