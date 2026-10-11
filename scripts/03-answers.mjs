@@ -62,6 +62,11 @@ await pMap(
         texts = null; // every strong cloud model is throttled right now
       }
     }
+    if (!texts && process.env.LOCAL_FALLBACK === "0") {
+      // Cloud-only run: write nothing; the finally block releases these questions for a later attempt.
+      await new Promise((r) => setTimeout(r, 60000));
+      return;
+    }
     if (!texts) {
       // Local Qwen3-Coder-30B MoE, one question per call so the prompt fits its context.
       texts = [];
